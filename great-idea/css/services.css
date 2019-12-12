@@ -88,112 +88,89 @@ nav a {
 	padding-left: 7%;
 	font-family: 'Amatic SC', cursive;
 	font-size: 1em;
+	margin-top: 2em;
 }
 
 a:hover{
 	color: lightgrey;
 }
 
-img.logo {
-	width: auto;
+.logo {
+	width: 100%;
 	height: auto;
 	margin-left: 20%;
+	margin-top: -5px;
+}
+
+.services-header-img {
+	width: 100%;
+	padding: 2% 0;
 }
 
 h1 {
-	width: 500px;
+	font-size: 25px;
+	padding-top: 3px;
 }
 
 h2 {
-	font-size: 35px;
+	font-size: 20px;
+	padding-top: 10px;
 }
 
-.inno{
-	color: black;
-	font-size: 6em;
-	padding-top: 5%;
-	text-align: center;
+.services {
+	padding: 30px 0;
+}
+
+.content {
 	display: flex;
-	padding-left: 15%;
+	flex-wrap: wrap;
+	padding: 30px 0;
+}
+
+.boxes {
+	border: 2px solid black;
+	background-color: rgb(238, 238, 238);
+	height: auto;
+	width: 45%;
+	padding: 20px;
+	margin: 1%;
+}
+
+.content p {
+	margin-bottom: 20px;
 }
 
 button {
-	width: 250px;
+	width: 200px;
 	height: 50px;
-	font-size: .3em;
+	font-size: 1em;
 	color: black;
 	background-color: white;
 	padding-top: 1px;
 	border: 2px solid black;
+	border-radius: 10px;
 }
 
-button:hover {
-	color: white;
-	background-color: black;
-	border: 2px solid white;
-}
-
-.code{
-	width: auto;
-	height: auto;
+.last {
 	display: flex;
-	padding-left: 8%;
-	padding-bottom: 2%;
+	padding-top: 5%;
 }
 
-
-.container1 {
-	display: flex;
+.last p {
+	padding: 15px 0;
 }
 
-.container2 {
-	display: flex;
+.last ul {
+	list-style-type: square;
+	padding: 3%;
 }
 
-.features {
-	width: 49%;
-	padding: 2%;
-	flex: auto;
+.last li {
+	padding: 1%;
 }
 
-.about{
-	width: 49%;
-	padding: 2%;
-}
-
-.middle-img{
-	width: 100%;
-}
-
-.services{
-	width: 30%;
-	padding: 2%;
-}
-
-.product{
-	width: 30%;
-	padding: 2%;
-}
-
-.vision{
-	width: 30%;
-	padding: 2%;
-}
-
-.address {
-	width: 300px;
-}
-
-.phone {
-	padding-top: 2%;
-}
-
-.email {
-	padding-top: 2%;
-}
-
-.email:hover {
-	color: lightgray;
+.services-info-img {
+	flex: right;
 }
 
 .copyright{
