@@ -242,8 +242,12 @@ button:hover {
 	padding-top: 10px;
 }
 
-.services {
+.s-services {
 	padding: 30px 0;
+}
+
+.p-services {
+	width: 100%;
 }
 
 .content {
