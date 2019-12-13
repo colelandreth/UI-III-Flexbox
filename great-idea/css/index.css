@@ -311,10 +311,18 @@ button:hover {
 		padding: 2% 0;
 	}
 	
+	nav a {
+		padding-left: 3%;
+	}
 
 	.content {
 		display: flex;
 		flex-direction: column;
+	 }
+
+	 .slogo {
+		width: 200%;
+		height: 100%;
 	 }
 
 	 .boxes {
