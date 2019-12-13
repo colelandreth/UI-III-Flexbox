@@ -301,3 +301,28 @@ button:hover {
 .services-info-img {
 	flex: right;
 }
+
+
+
+@media only screen and (max-width: 700px) {
+	.snav-bar {
+		display: flex;
+		margin-left: -10%;
+		padding: 2% 0;
+	}
+	
+
+	.content {
+		display: flex;
+		flex-direction: column;
+	 }
+
+	 .boxes {
+		 width: 100%;
+	 }
+
+	 .last {
+		 display: flex;
+		 flex-direction: column;
+	 }
+  }
