@@ -94,133 +94,7 @@ a:hover{
 	color: lightgrey;
 }
 
-img.logo {
-	width: auto;
-	height: auto;
-	margin-left: 20%;
-}
-
-h1 {
-	width: 500px;
-}
-
-h2 {
-	font-size: 35px;
-}
-
-.inno{
-	color: black;
-	font-size: 6em;
-	padding-top: 5%;
-	text-align: center;
-	display: flex;
-	padding-left: 15%;
-}
-
-button {
-	width: 250px;
-	height: 50px;
-	font-size: .3em;
-	color: black;
-	background-color: white;
-	padding-top: 1px;
-	border: 2px solid black;
-}
-
-button:hover {
-	color: white;
-	background-color: black;
-	border: 2px solid white;
-}
-
-.code{
-	width: auto;
-	height: auto;
-	display: flex;
-	padding-left: 8%;
-	padding-bottom: 2%;
-}
-
-
-.container1 {
-	display: flex;
-}
-
-.container2 {
-	display: flex;
-}
-
-.features {
-	width: 49%;
-	padding: 2%;
-	flex: auto;
-}
-
-.about{
-	width: 49%;
-	padding: 2%;
-}
-
-.middle-img{
-	width: 100%;
-}
-
-.services{
-	width: 30%;
-	padding: 2%;
-}
-
-.product{
-	width: 30%;
-	padding: 2%;
-}
-
-.vision{
-	width: 30%;
-	padding: 2%;
-}
-
-.address {
-	width: 300px;
-}
-
-.phone {
-	padding-top: 2%;
-}
-
-.email {
-	padding-top: 2%;
-}
-
-.email:hover {
-	color: lightgray;
-}
-
-.copyright{
-	padding: 3%;
-	text-align: center;
-}
-
-
-/* Services Page */
-
-.sbody {
-	max-width: 80%;
-	margin: auto;
-}
-
-
-.sheader {
-	padding-top: 2%;
-	width: 98%;
-}
-
-.snav-bar {
-	display: flex;
-	padding-left: 10%;
-}
-
-.slogo {
+.logo {
 	width: 100%;
 	height: auto;
 	margin-left: 20%;
@@ -232,22 +106,18 @@ button:hover {
 	padding: 2% 0;
 }
 
-.h1-service {
+h1 {
 	font-size: 25px;
 	padding-top: 3px;
 }
 
-.h2-service {
+h2 {
 	font-size: 20px;
 	padding-top: 10px;
 }
 
-.s-services {
+.services {
 	padding: 30px 0;
-}
-
-.p-services {
-	width: 100%;
 }
 
 .content {
@@ -269,7 +139,7 @@ button:hover {
 	margin-bottom: 20px;
 }
 
-.service-button {
+button {
 	width: 200px;
 	height: 50px;
 	font-size: 1em;
@@ -302,35 +172,7 @@ button:hover {
 	flex: right;
 }
 
-
-
-@media only screen and (max-width: 700px) {
-	.snav-bar {
-		display: flex;
-		margin-left: -10%;
-		padding: 2% 0;
-	}
-	
-	nav a {
-		padding-left: 3%;
-	}
-
-	.content {
-		display: flex;
-		flex-direction: column;
-	 }
-
-	 .slogo {
-		width: 200%;
-		height: 100%;
-	 }
-
-	 .boxes {
-		 width: 100%;
-	 }
-
-	 .last {
-		 display: flex;
-		 flex-direction: column;
-	 }
-  }
+.copyright{
+	padding: 3%;
+	text-align: center;
+}
